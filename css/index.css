@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #292E3C;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  padding: 15px 0;
+}
+.navbar .nav-link {
+  color: white !important;
+}
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    text-align: center !important;
+  }
+}
+.navbar .navbarBtn {
+  color: white;
+}
+@media (max-width: 768px) {
+  .navbar .navbarBtn {
+    text-align: center;
+  }
+}
+.navbar .navbarBtn .mybtn {
+  color: white;
+}
+
+#banner {
+  background-color: #292E3C;
+}
+@media (max-width: 768px) {
+  #banner {
+    padding: 80px 0;
+  }
+}
+#banner .bannerH {
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  #banner .bannerH {
+    height: auto;
+  }
+}
+#banner .bannerH .bannerTitle h1 {
+  font-size: 60px;
+}
+@media (max-width: 768px) {
+  #banner .bannerH .bannerTitle h1 {
+    font-size: 52px;
+  }
+}
+#banner .bannerH .bannerImg {
+  position: relative;
+}
+#banner .bannerH .bannerImg img {
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 768px) {
+  #banner .bannerH .bannerImg img {
+    width: 50%;
+  }
+}
+#banner .bannerH .bannerImg::before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  background-color: #FF3E66;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+  #banner .bannerH .bannerImg::before {
+    width: 400px;
+    height: 400px;
+  }
+}
+#banner .bannerH .bannerImg .helperImg {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}/*# sourceMappingURL=index.css.map */
